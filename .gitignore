@@ -1,0 +1,99 @@
+# C Programming Course - Git Ignore File
+
+# Compiled Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+a.out
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Preprocessor files
+*.i
+
+# Assembly files (optional - uncomment if you don't want to track them)
+# *.s
+
+# Static libraries
+*.a
+*.la
+*.lo
+
+# Shared libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Core dumps
+core
+core.*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# Add any project-specific ignores here
+
+# Keep example executables for demonstration
+!examples/*/hello
+!examples/*/demo
+!examples/*/test
+
+# But ignore build artifacts in examples
+examples/*/*.o
+examples/*/*.i
+examples/*/*.s
+examples/*/a.out

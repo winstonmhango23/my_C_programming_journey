@@ -97,3 +97,5 @@ examples/*/*.o
 examples/*/*.i
 examples/*/*.s
 examples/*/a.out
+
+tools/*

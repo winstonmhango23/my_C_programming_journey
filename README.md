@@ -9,7 +9,7 @@ This course is structured to provide deep understanding of C programming with a 
 ## Prerequisites
 - Basic computer literacy
 - Willingness to learn and practice
-- macOS development environment (which we'll set up)
+- Windows development environment (which we'll set up)
 
 ## Course Structure
 
@@ -49,8 +49,8 @@ Each chapter includes:
 ## Development Environment
 
 We'll be using:
-- **Compiler**: GCC/Clang on macOS
-- **Debugger**: GDB/LLDB
+- **Compiler**: GCC (MinGW-w64) on Windows
+- **Debugger**: GDB
 - **Build System**: Make, CMake
 - **Version Control**: Git
 - **Editor**: Any preferred (VS Code, Vim, etc.)
@@ -58,7 +58,7 @@ We'll be using:
 ## Course Chapters
 
 ### 📖 Chapter 01: Development Environment Setup
-- Setting up C development on macOS
+- Setting up C development on Windows
 - Understanding the compilation process
 - Introduction to debugging tools
 
